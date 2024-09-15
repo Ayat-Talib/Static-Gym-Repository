@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gym - Registration</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external stylesheet -->
+</head>
+
+<body>
+    <header>
+        
+        <h1>Empowering You to Achieve Your Fitness Goals</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="classes.html">Classes</a>
+        <a href="trainers.html">Trainers</a>
+        <a href="membership.html">Membership</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>
+            Hi, I'm Ayat Talib, the founder of My Gym. My passion for fitness and well-being led me to create
+            this platform to help individuals like you achieve their fitness goals. We believe in providing
+            personalized training and a supportive community to make your fitness journey enjoyable and rewarding.
+        </p>
+    </section>
+
+    <section id="registration-form">
+        <h2>Membership Registration</h2>
+
+        <form action="process_registration.php" method="post">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <p>If you have any questions or concerns, feel free to email us:</p>
+
+        <!-- Email link -->
+        <a href="ayattalib890@gmail.com">ayattalib890@gmail.com</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 My Gym. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
